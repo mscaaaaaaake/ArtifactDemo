@@ -1,0 +1,6 @@
+com\demo\aop\seccurity\SecurrityAspect.class
+com\demo\aop\entity\Product.class
+com\demo\aop\seccurity\AdminOnly.class
+com\demo\aop\seccurity\CurrentUserHolder.class
+com\demo\aop\service\ProductService.class
+com\demo\aop\service\AuthService.class
