@@ -17,7 +17,6 @@ public class AuthService {
 
     public void checkAccess() {
         String user = CurrentUserHolder.get();
-        System.out.println(user);
         if(!"admin".equals(user)){
             throw new RuntimeException("非管理员登录");
         }else{

@@ -9,3 +9,14 @@
 @Aspect：标注说明java类是一个aspect切面类；
 @Pointcut：描述你是在哪些类的哪些方法进行切入；
 Advice：你想要在这些方法的什么执行时机使用；
+##### 5、切面表达式（expression）
+###### Wildcards（通配符：有些方法有些类不一一列举时使用）：
+“*”：匹配任意数量的字符；
+“+”：匹配指定类以及其子类；
+“..”：匹配任意数的子包或者参数；
+###### Operators（扫描方法：组合各种要求）：
+&&（与）；||（或）；!（非）
+
+###### Designators（指示器：想通过什么方式匹配你想要的类的方法）：
+execution（重点掌握，其他部分了解）：
+within使用方法，见com.demo.aop.config.AspectConfigPrac
