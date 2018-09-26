@@ -1,5 +1,6 @@
 package com.demo.aop.config;
 
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -25,10 +26,15 @@ public class AspectConfigPrac {
 
     }
 
-    @Before("matchType()")
+    /*@AfterThrowing，异常通知，代码抛出异常之后执行
+    * 其他advice详见笔记
+    * 另around较为齐全强大，可单独多了解了解
+    * */
+    @AfterThrowing("matchType()")
     public void before(){
         System.out.println("======before======");
         System.out.println("AspectConfigPrac");
+        System.out.println("该用户为不被允许登入用户");
         System.out.println("======before======");
     }
 }

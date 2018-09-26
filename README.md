@@ -18,5 +18,11 @@ Advice：你想要在这些方法的什么执行时机使用；
 &&（与）；||（或）；!（非）
 
 ###### Designators（指示器：想通过什么方式匹配你想要的类的方法）：
-execution（重点掌握，其他部分了解）：
-within使用方法，见com.demo.aop.config.AspectConfigPrac
+execution（重点掌握，其他部分了解）
+
+##### 6、advice注解（拦截动作）
+1、@Before，前置通知：指在拦截的方法之前执行；
+2、@After（finally），后置通知，在代码执行完之后执行
+3、@AfterReturning，返回通知，代码成功执行之后；
+4、@AfterThrowing，异常通知，代码抛出异常之后执行
+5、@Around，环绕通知（既有before，return，ex也有after）
