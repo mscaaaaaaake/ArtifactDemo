@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  * @date: 2018/9/25 13:10
  * @version: 2.0.0
  */
-@Service
+@Service("productService")
 @Component
 public class ProductService {
 

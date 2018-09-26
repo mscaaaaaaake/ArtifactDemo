@@ -9,26 +9,27 @@ import org.springframework.stereotype.Component;
  * @description: <文件描述>
  * @modified: <文件修改说明>
  * @auther: ZhuoZhiling
- * @date: 2018/9/25 17:34
+ * @date: 2018/9/26 9:38
  * @version: 2.0.0
  */
 @Aspect
 @Component
-public class AspectConfigPrac {
+public class ObjectAspectConfig {
 
-    /*within:
-    拦截对应的类（com.demo.aop.service.ProductService）；
-    拦截一个包下面的所有类（com.demo.aop.service.*）
-    * */
-    @Pointcut("within(com.demo.aop.service.ProductService)")
-    public void matchType(){
+    /*@Pointcut("this(com.demo.aop.service.ProductService)")
+    public void aspectConfig(){
+
+    }*/
+
+    @Pointcut("bean(productService)")
+    public void aspectConfig(){
 
     }
 
-    @Before("matchType()")
-    public void before(){
+    @Before("aspectConfig()")
+    public void doBefore(){
         System.out.println("======before======");
-        System.out.println("AspectConfigPrac");
+        System.out.println("Object Aspect Config");
         System.out.println("======before======");
     }
 }
