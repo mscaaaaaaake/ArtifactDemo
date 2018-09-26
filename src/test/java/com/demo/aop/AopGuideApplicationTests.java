@@ -33,6 +33,6 @@ public class AopGuideApplicationTests {
         Product product = new Product();
         product.setId(1);
         product.setName("tom");
-        productService.Insert(product);
+        productService.Insert(product,1);
     }
 }

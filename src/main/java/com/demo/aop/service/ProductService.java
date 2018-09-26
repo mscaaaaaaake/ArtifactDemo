@@ -21,7 +21,7 @@ public class ProductService {
     private AuthService authService;
 
     @AdminOnly
-    public void Insert(Product product){
+    public void Insert(Product product,Integer num){
         System.out.println("Insert");
     }
 

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bca95b9-ec38-4118-9478-24ff249125d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/aop/config/ObjectAspectConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/demo/aop/config/ArgsAspectConfig.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/aop/config/AspectConfigPrac.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/aop/config/AspectConfigPrac.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/aop/service/ProductService.java" afterPath="$PROJECT_DIR$/src/main/java/com/demo/aop/service/ProductService.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/aop/AopGuideApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/demo/aop/AopGuideApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +35,8 @@
       <file leaf-file-name="AopGuideApplicationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/aop/AopGuideApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="391">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +47,8 @@
       <file leaf-file-name="ObjectAspectConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/ObjectAspectConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="345">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,14 +59,48 @@
       <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="200">
+              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/entity/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspectConfigPrac.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/AspectConfigPrac.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgsAspectConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/ArgsAspectConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,12 +137,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/service/impl/AuthServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/seccurity/SecurrityAspect.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demo/aop/AopGuideApplicationTests.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/service/AuthService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/config/AspectConfigPrac.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/config/ObjectAspectConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demo/aop/AopGuideApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/aop/config/ArgsAspectConfig.java" />
       </list>
     </option>
   </component>
@@ -508,23 +543,11 @@
       <workItem from="1537857089680" duration="13000" />
       <workItem from="1537860933278" duration="3757000" />
       <workItem from="1537865018166" duration="3829000" />
-      <workItem from="1537925382294" duration="1968000" />
+      <workItem from="1537925382294" duration="2826000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.25 at 16h 56m 23s.xml">
-      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.25 at 16h 57m 46s.xml">
-      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.25 at 17h 00m 03s.xml">
-      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.25 at 17h 39m 00s.xml">
-      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.25 at 17h 42m 02s.xml">
       <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
     </history-entry>
@@ -543,9 +566,21 @@
     <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.26 at 09h 59m 48s.xml">
       <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.26 at 10h 03m 29s.xml">
+      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.26 at 10h 15m 43s.xml">
+      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.26 at 10h 16m 10s.xml">
+      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopGuideApplicationTests_annoInserTest - 2018.09.26 at 10h 17m 04s.xml">
+      <configuration name="AopGuideApplicationTests.annoInserTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17041000" />
+    <option name="totallyTimeSpent" value="17899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
@@ -654,10 +689,10 @@
           <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,10 +720,10 @@
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,10 +754,10 @@
           <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,10 +787,10 @@
           <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -892,16 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/AspectConfigPrac.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -923,32 +948,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/AspectConfigPrac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/entity/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="183">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="200">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/ObjectAspectConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="345">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/aop/config/ArgsAspectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -957,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/aop/AopGuideApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="391">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
