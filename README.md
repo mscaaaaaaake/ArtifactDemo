@@ -34,3 +34,25 @@ execution（重点掌握，其他部分了解）
 2、Cglib基于继承来实现代理，无法对statistics、final类进行代理
 
 3、Cglib基于继承来实现代理，无法对private、static方法进行代理
+
+#### SpringAOP对两种实现的选择
+1、如果目标对象实现了接口，则默认采用JDK动态代理
+
+2、如果目标对象没有实现接口，啧采用Cglib进行动态代理
+
+3、如果目标队形实现了接口，且强制Cglib代理，则使用Cglib代理
+###### 关于强制使用Cglib代理：
+
+@SpringBootApplication
+
+//proxyTargetClass = true时，可看做spring强制使用Cglib代理
+
+@EnableAspectJAutoProxy(proxyTargetClass = true)
+
+public class AopDemoApplication(){
+
+    .....
+    
+}
+
+#### aop链式调用（看蒙了，笔记代码省略，回头再去看看）
