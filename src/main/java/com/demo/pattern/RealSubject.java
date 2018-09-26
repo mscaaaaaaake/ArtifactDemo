@@ -12,4 +12,9 @@ public class RealSubject implements Subject{
     public void request() {
         System.out.println("real subject excute");
     }
+
+    @Override
+    public void hello() {
+        System.out.println("hello");
+    }
 }

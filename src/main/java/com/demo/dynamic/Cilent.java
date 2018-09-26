@@ -19,6 +19,6 @@ public class Cilent {
         Subject subject = (Subject) Proxy.newProxyInstance(Client.class.getClassLoader(),
                 new Class[]{Subject.class},
                 new JdkProxySubject(new RealSubject()));
-        subject.request();
+        subject.hello();
     }
 }

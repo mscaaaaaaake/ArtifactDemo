@@ -29,4 +29,9 @@ public class Proxy implements Subject{
 
 
     }
+
+    @Override
+    public void hello() {
+        realSubject.hello();
+    }
 }
