@@ -1,4 +1,5 @@
 ## 笔记
+#### aop拦截
 ##### 1、为什么要引入AOP的变成范式？
 答案略
 ##### 2、AOP的好处以及使用场景是什么？
@@ -26,3 +27,10 @@ execution（重点掌握，其他部分了解）
 3、@AfterReturning，返回通知，代码成功执行之后；
 4、@AfterThrowing，异常通知，代码抛出异常之后执行
 5、@Around，环绕通知（既有before，return，ex也有after）
+
+#### JDK与Cglib代理对比
+1、jdk代理只能针对有接口的类的接口方法进行动态代理
+
+2、Cglib基于继承来实现代理，无法对statistics、final类进行代理
+
+3、Cglib基于继承来实现代理，无法对private、static方法进行代理
